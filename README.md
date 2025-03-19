@@ -44,3 +44,10 @@ This allows more space for high-speed waves to display their radiating and fadin
 
    ```bash
    git clone <repo-url>
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd Ripples
+
+3. Open index.html in a browser to run the simulation.
