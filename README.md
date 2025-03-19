@@ -51,3 +51,18 @@ This allows more space for high-speed waves to display their radiating and fadin
    cd Ripples
 
 3. Open index.html in a browser to run the simulation.
+
+## Usage
+- Click or tap on the canvas to create ripple effects.
+- Adjust intensity and speed with a longer click/tap.
+
+## Future Improvements 
+- Add mobile touch gestures for enhanced interaction.
+- Implement a settings UI for user-configurable parameters.
+- Improve performance on lower-end devices.
+
+## License
+This project is licensed under the MIT License.
+
+## Credits
+Developed by Ivan Varghese.
