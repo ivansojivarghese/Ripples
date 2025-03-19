@@ -1,19 +1,46 @@
-# Ripples
+# Water Ripples Simulation
+
 A wonder of nature recreated in browser fashion...
 
-Physics:
-When object is dropped in calm water, 2 types of waves are formed:
-- capillary
-- gravity
+## Physics of Ripples
 
-Capillary waves are the first to form out. These create a dense wave grouping of waves know as the Leading Edge when the ripple radiates out. 
-Gravity are larger and (appear) slower than capillary. They are not created in heavy quantities as capillary waves. 
+When an object is dropped into calm water, two types of waves are formed:
 
+- **Capillary Waves (cW)**: These are the first waves to form, creating a dense grouping known as the **Leading Edge** as the ripple radiates outward.
 
-Buffer zone:
-- A buffer zone is the area (within a radiating gW wave (first)) where no cW waves are visible (but they are still radiating along with gW wave at this point).
+- **Gravity Waves (gW)**: Larger and seemingly slower than capillary waves, they are generated in smaller quantities.
 
-Release zone:
-- A release zone is the point where all cW waves are visible.
-- The area between these 2 zones, divided by the no. of cW waves = indiv. percentile markers (relative to gW wave, per live height tracking) for indiv. cW waves to show up
-- A faster click means faster (ripple) wave speed. Hence, a reduced buffer zone and increased release zone. This is to allow more space for higher speed waves to show radiating (fading out) effect. 
+Capillary waves are the first to form and create a dense grouping known as the Leading Edge as the ripple radiates outward. Gravity waves are larger and appear slower than capillary waves, forming in smaller quantities.
+
+### Buffer Zone
+
+The buffer zone is the area within the first radiating gravity wave where no capillary waves are visible, though they are still propagating alongside the gravity wave.
+
+### Release Zone
+
+The release zone is the point where all capillary waves become visible. The area between the buffer and release zones, divided by the number of capillary waves, forms percentile markers relative to the gravity wave’s live height tracking for individual capillary waves to show up.
+
+Faster clicks generate faster ripple wave speeds, reducing the buffer zone and increasing the release zone.
+
+This allows more space for high-speed waves to display their radiating and fading-out effects.
+
+## Features
+
+- Realistic water ripple effect
+- Interactive click and touch-based ripple generation
+- Adjustable ripple intensity and speed
+- Optimized performance using WebGL
+
+## Technologies Used
+
+- JavaScript (ES6+)
+- WebGL / GLSL Shaders
+- HTML5 Canvas
+- CSS for UI elements
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repo-url>
