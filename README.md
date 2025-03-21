@@ -54,6 +54,7 @@ This allows more space for high-speed waves to display their radiating and fadin
 - Adjust intensity and speed with a longer click/tap.
 
 ## Future Improvements 
+- Simulate secondary waves from primary wave collisions. When two or more ripples intersect, they generate smaller secondary waves due to constructive and destructive interference. This effect adds realism by replicating the way real water waves behave when they merge and interact.
 - Add mobile touch gestures for enhanced interaction.
 - Implement a settings UI for user-configurable parameters.
 - Improve performance on lower-end devices.
