@@ -1,5 +1,7 @@
 # Ripples
 
+![Demo](Files/demo.gif)
+
 An interactive JavaScript project that replicates the mesmerizing effect of ripples in water.
 
 ## Physics of Ripples
