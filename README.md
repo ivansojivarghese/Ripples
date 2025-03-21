@@ -1,4 +1,4 @@
-# Ripples Simulation
+# Ripples
 
 An interactive JavaScript project that replicates the mesmerizing effect of ripples in water.
 
