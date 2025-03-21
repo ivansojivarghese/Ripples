@@ -1,0 +1,61 @@
+
+when object dropped in calm water, 2 types of waves are formed:
+
+ - capillary waves -shorter wavelength - (visible at leading edge)
+ - gravity waves 
+
+ -- capillary short (cS)
+ -- capillary long (cL)
+ -- gravity short (gS)
+ -- gravity long (gL)
+
+
+
+
+
+capillary waves are the first to form out. short waves move fast to the front, but they are not visible (except at the leading edges). long waves move slow and fall back. 
+
+followed by some (longer) gravity waves (from centre) move fast to the front, almost bypassing the capillary waves by (catching up/overtaking) the long (slow) capillary waves
+
+followed by some (shorter) gravity waves (from centre) move slow and fall back (relative to longer). these however catch up to the front and disappear.
+
+  
+
+------
+
+
+According to video,
+
+ - Larger ripples (intensity) take longer duration to dissipate than smaller ripples. Hence, ripple speed is generally the same across intensities.
+
+ - The leading edge consists of capillary short (cS) waves. 
+
+ - No. of capillary short (cS) waves are less than half of capillary long (cL) waves.
+
+ - No. of gravity waves should not exceed no. of capillary waves. 
+
+ - There are more gravity short (gS) waves than gravity long (gL).
+
+ - The no. of gravity short (gS) waves are 3 times the no. of gravity long (gL) waves. 
+
+ - The wavelength of gravity long (gL) waves should be less than half of the ripple intensity (radius).
+
+ - The potential of capillary long (cL) waves extend to the ripple intensity. 
+
+ - The potential of capillary short (cS) waves extend slightly beyond the ripple intensity to form leading edge (20% extra).
+
+ - The potential of gravity long (gL) waves extend beyond the ripple intensity and leading edge (40% extra).
+
+ - The potential of gravity short (gS) waves extend beyond the ripple intensity and leading edge (70% extra).
+
+
+
+ In Summary:
+
+  - Each ripple function (instance) should create at least one of each types of the 4 waves.
+
+  - The number and wavelength of these waves depends on the intensity argument passed to the function.  
+
+
+
+
