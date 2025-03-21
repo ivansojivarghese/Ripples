@@ -1,6 +1,6 @@
-# Water Ripples Simulation
+# Ripples Simulation
 
-A wonder of nature recreated in browser fashion...
+An interactive JavaScript project that replicates the mesmerizing effect of ripples in water.
 
 ## Physics of Ripples
 
